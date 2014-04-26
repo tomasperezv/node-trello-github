@@ -1,5 +1,5 @@
 {
-  "name": "node-trello-github",
+  "name": "trello-github",
   "version": "0.0.2",
   "description": "Read tasks from a trello dashboard and store them as issues in a github repository, updating state changes.",
   "main": "index.js",
@@ -20,12 +20,10 @@
     "url": "https://github.com/tomasperezv/node-trello-github/issues"
   },
   "homepage": "https://github.com/tomasperezv/node-trello-github",
-  "devDependencies": {
-    "node-trello": "~0.1.4",
-    "node-github": "0.0.3"
-  },
   "dependencies": {
     "node-log": "git+ssh://git@github.com:tomasperezv/node-log.git",
-    "node-config": "git+ssh://git@github.com:tomasperezv/node-config.git"
+    "node-config": "git+ssh://git@github.com:tomasperezv/node-config.git",
+    "node-trello": "~0.1.4",
+    "github": "~0.1.16"
   }
 }
