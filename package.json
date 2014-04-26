@@ -23,5 +23,9 @@
   "devDependencies": {
     "node-trello": "~0.1.4",
     "node-github": "0.0.3"
+  },
+  "dependencies": {
+    "node-log": "git+ssh://git@github.com:tomasperezv/node-log.git",
+    "node-config": "git+ssh://git@github.com:tomasperezv/node-config.git"
   }
 }
