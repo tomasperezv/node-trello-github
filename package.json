@@ -1,0 +1,27 @@
+{
+  "name": "node-trello-github",
+  "version": "0.0.2",
+  "description": "Read tasks from a trello dashboard and store them as issues in a github repository, updating state changes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomasperezv/node-trello-github.git"
+  },
+  "keywords": [
+    "trello",
+    "github"
+  ],
+  "author": "Tomas Perez <tom@0x101.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomasperezv/node-trello-github/issues"
+  },
+  "homepage": "https://github.com/tomasperezv/node-trello-github",
+  "devDependencies": {
+    "node-trello": "~0.1.4",
+    "node-github": "0.0.3"
+  }
+}
