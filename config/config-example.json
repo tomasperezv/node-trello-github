@@ -1,7 +1,8 @@
 {
 
     "github": {
-      "token": ""
+      "token": "",
+      "timeout": 3000
     },
 
     "trello": {

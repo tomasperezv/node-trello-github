@@ -7,4 +7,9 @@
  * @author Tomas Perez <tom@0x101.com>
  */
 var config = require('node-config').get('config'),
-		log = require('node-log');
+		Log = require('node-log'),
+		TrelloGithub = require('./lib/trello-github');
+
+var trelloGithub = new TrelloGithub();
+trelloGithub.readTrelloBoard(config.trello.boardId, function(err, data) {
+});
