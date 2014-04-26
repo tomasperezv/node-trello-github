@@ -2,12 +2,21 @@
 
     "github": {
       "token": "",
-      "timeout": 3000
+      "timeout": 3000,
+      "user": "",
+      "repo": ""
     },
 
     "trello": {
       "key": "",
-      "token": ""
+      "token": "",
+      "boardId": "",
+      "listsMapping": {
+        "": "Backlog",
+        "": "Ready",
+        "": "In progress",
+        "": "Done"
+      }
     }
 
 }
