@@ -11,5 +11,11 @@ var config = require('node-config').get('config'),
 		TrelloGithub = require('./lib/trello-github');
 
 var trelloGithub = new TrelloGithub();
-trelloGithub.readTrelloBoard(config.trello.boardId, function(err, data) {
+
+trelloGithub.readGithubIssues(function(issues) {
+	trelloGithub.readTrelloBoard(config.trello.boardId, function(err, data) {
+		data.map(function(current) {
+			var result = trelloGithub.upsertCard(issues, current);
+		});
+	});
 });
