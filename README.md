@@ -46,5 +46,5 @@ Read tasks from a trello dashboard and store them as issues in a github reposito
 ### 4. Run the client ###
 
 ```shell
-$ ./clientljs
+$ ./client.js
 ```
